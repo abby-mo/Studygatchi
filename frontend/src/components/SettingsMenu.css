@@ -1,3 +1,10 @@
+/* Text color classes for theme contrast */
+.light-text {
+    color: #fff;
+}
+.dark-text {
+    color: #222;
+}
 .bCard{
     padding: 0;
     text-align: left;

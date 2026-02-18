@@ -28,7 +28,8 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  background-color: var(--bg-color, #242424); /* controlled by theme picker */
+  transition: background-color 0.3s ease;
 }
 
 h1 {
